@@ -64,9 +64,6 @@ public class Sketch extends PApplet {
     float m = map(minute() + norm(second(), 0, 60), 0, 60, 0, TWO_PI) - HALF_PI; 
     float h = map(hour() + norm(minute(), 0, 60), 0, 24, 0, TWO_PI * 2) - HALF_PI;
     
-    
-
-
     //variables for the clock
     int width = 100;
     int height = 100;
